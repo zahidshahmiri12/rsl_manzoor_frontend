@@ -1,15 +1,15 @@
-import Cards from './Components/Cards/Cards';
-import NavBar from './Components/Header/Header';
-import LocationNews from './Components/Location/LocationNews';
+import React from 'react'
+// import News from './Componensts/News/News'
+// import Category from './Componensts/Category/Category'
+import Location from './Componensts/Location/Location'
+import "./styles.css"
 
-function App() {
+export default function App() {
   return (
-    <div className='app-container'>
-      <NavBar/>
-      <Cards />
-      <LocationNews/>
+    <div className='main-container'>
+        <Location />
+        {/* <Category/> */}
+        {/* <News /> */}
     </div>
-  );
+  )
 }
-
-export default App;
